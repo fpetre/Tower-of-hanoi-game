@@ -1,0 +1,61 @@
+/* Reset */
+
+html, body, div, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  color: inherit;
+}
+
+div.container {
+  height: 100px;
+  background: green;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.peg {
+  float: left;
+  width: 300px;
+  height: 90px;
+  border: 1px solid black;
+}
+
+ul.selected {
+  background: lightgreen;
+}
+
+li.disc {
+  margin: auto;
+  height: 30px;
+}
+
+li.disc1 {
+  width: 10px;
+  background: blue;
+}
+
+li.disc2 {
+  width: 20px;
+  background: orange;
+}
+
+li.disc3 {
+  width: 30px;
+  background: red;
+}
+
+h1.messages {
+  font-size: 50px;
+}
+
+/* clearfix */
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
